@@ -1,0 +1,290 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZUOV TablePress and Google Sheets Sync 2.0.1\\n"
+"Report-Msgid-Bugs-To: https://github.com/ealeksa/zuov-tablepress-google-sheets-sync/issues\\n"
+"POT-Creation-Date: 2026-05-04 10:14+0200\\n"
+"PO-Revision-Date: 2026-05-04 00:00+0000\\n"
+"Last-Translator: ZUOV\\n"
+"Language-Team: Serbian\\n"
+"Language: \\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"X-Generator: Codex\\n"
+
+msgid "Main table"
+msgstr ""
+
+msgid "Migrated table"
+msgstr ""
+
+msgid "Every 5 minutes"
+msgstr ""
+
+msgid "Every 15 minutes"
+msgstr ""
+
+msgid "Every 30 minutes"
+msgstr ""
+
+msgid "TablePress Google Sync"
+msgstr ""
+
+msgid "TP Google Sync"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "ZUOV TablePress and Google Sheets Sync:"
+msgstr ""
+
+msgid "TablePress must be active for synchronization to work."
+msgstr ""
+
+msgid "You do not have permission to access this page."
+msgstr ""
+
+msgid "Table %d"
+msgstr ""
+
+msgid "Settings saved."
+msgstr ""
+
+msgid "Webhook secret changed."
+msgstr ""
+
+msgid "ZUOV TablePress and Google Sheets Sync"
+msgstr ""
+
+msgid "Synchronize one or more Google Sheets CSV exports into existing TablePress tables."
+msgstr ""
+
+msgid "Google Sheets setup guide"
+msgstr ""
+
+msgid "TablePress is not currently available. Saving settings is possible, but synchronization is disabled."
+msgstr ""
+
+msgid "Sync profiles"
+msgstr ""
+
+msgid "Each profile maps one Google Sheet to one existing TablePress table."
+msgstr ""
+
+msgid "Profile %d"
+msgstr ""
+
+msgid "Profile name"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Enable this sync profile"
+msgstr ""
+
+msgid "Google Sheet URL"
+msgstr ""
+
+msgid "Use a standard /edit link or a direct /export?format=csv URL. The sheet must be readable by the server without a Google login screen."
+msgstr ""
+
+msgid "TablePress ID"
+msgstr ""
+
+msgid "Cache purge URL"
+msgstr ""
+
+msgid "Optional. If W3 Total Cache is active, this page URL is flushed after a successful update."
+msgstr ""
+
+msgid "Data processing"
+msgstr ""
+
+msgid "Remove empty trailing rows"
+msgstr ""
+
+msgid "Renumber the first column on the website"
+msgstr ""
+
+msgid "Sort rows by the second column:"
+msgstr ""
+
+msgid "Direct CSV URL"
+msgstr ""
+
+msgid "URL not recognized."
+msgstr ""
+
+msgid "Profile webhook URL"
+msgstr ""
+
+msgid "Use this URL in the Google Apps Script menu for this specific Google Sheet."
+msgstr ""
+
+msgid "Last profile status"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Remove this profile on save"
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+msgid "Save and add another profile"
+msgstr ""
+
+msgid "Automation"
+msgstr ""
+
+msgid "Scheduled check"
+msgstr ""
+
+msgid "Cron is a fallback check. For immediate updates, use the webhook or the Google Sheets custom menu."
+msgstr ""
+
+msgid "Webhook URL for all profiles"
+msgstr ""
+
+msgid "REST webhook fallback"
+msgstr ""
+
+msgid "Manual profile sync"
+msgstr ""
+
+msgid "Sync %s"
+msgstr ""
+
+msgid "Manual sync"
+msgstr ""
+
+msgid "Sync all profiles now"
+msgstr ""
+
+msgid "Webhook secret"
+msgstr ""
+
+msgid "Change webhook secret"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Last run"
+msgstr ""
+
+msgid "Last success"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Rows"
+msgstr ""
+
+msgid "Next scheduled check"
+msgstr ""
+
+msgid "Not scheduled"
+msgstr ""
+
+msgid "Open the Google Sheet and use Share > General access > Anyone with the link > Viewer. Do not make the public link editable."
+msgstr ""
+
+msgid "Give Editor access only to trusted Google accounts that should maintain the data."
+msgstr ""
+
+msgid "Paste the Google Sheet /edit URL into the matching sync profile, save settings, and run a manual sync."
+msgstr ""
+
+msgid "For a manual sync button inside Google Sheets, open Extensions > Apps Script and use the sample script from README.md or docs/google-sheets-setup.md."
+msgstr ""
+
+msgid "Use the profile-specific webhook URL when one Google Sheet should update only its own TablePress table."
+msgstr ""
+
+msgid "Manual / webhook only"
+msgstr ""
+
+msgid "Hourly"
+msgstr ""
+
+msgid "Twice daily"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Do not sort"
+msgstr ""
+
+msgid "English / Latin A-Z"
+msgstr ""
+
+msgid "Serbian Cyrillic azbuka"
+msgstr ""
+
+msgid "Invalid webhook secret."
+msgstr ""
+
+msgid "Synchronization is already in progress."
+msgstr ""
+
+msgid "TablePress is not active or not loaded."
+msgstr ""
+
+msgid "Synchronization finished with %1$d error(s), %2$d update(s), and %3$d skipped profile(s)."
+msgstr ""
+
+msgid "Synchronization updated %1$d profile(s). Skipped: %2$d."
+msgstr ""
+
+msgid "No profile had changes to import."
+msgstr ""
+
+msgid "The selected sync profile does not exist."
+msgstr ""
+
+msgid "The selected sync profile is disabled."
+msgstr ""
+
+msgid "No enabled sync profiles have both a Google Sheet URL and a TablePress ID."
+msgstr ""
+
+msgid "Missing TablePress ID."
+msgstr ""
+
+msgid "Google Sheet URL was not recognized."
+msgstr ""
+
+msgid "Google Sheet could not be downloaded: %s"
+msgstr ""
+
+msgid "Google Sheet returned HTTP status %d."
+msgstr ""
+
+msgid "Google Sheet CSV export is empty."
+msgstr ""
+
+msgid "Google returned HTML instead of CSV. Check whether the sheet is readable without logging in."
+msgstr ""
+
+msgid "No changes in the Google Sheet."
+msgstr ""
+
+msgid "CSV does not contain usable table data."
+msgstr ""
+
+msgid "TablePress table %1$s was updated. Data rows: %2$d."
+msgstr ""
+
+msgid "CSV could not be parsed."
+msgstr ""
+
+msgid "TablePress table does not exist: %s"
+msgstr ""
+

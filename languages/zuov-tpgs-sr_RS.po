@@ -1,0 +1,290 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZUOV TablePress and Google Sheets Sync 2.0.1\\n"
+"Report-Msgid-Bugs-To: https://github.com/ealeksa/zuov-tablepress-google-sheets-sync/issues\\n"
+"POT-Creation-Date: 2026-05-04 10:14+0200\\n"
+"PO-Revision-Date: 2026-05-04 00:00+0000\\n"
+"Last-Translator: ZUOV\\n"
+"Language-Team: Serbian\\n"
+"Language: sr_RS\\n"
+"MIME-Version: 1.0\\n"
+"Content-Type: text/plain; charset=UTF-8\\n"
+"Content-Transfer-Encoding: 8bit\\n"
+"X-Generator: Codex\\n"
+
+msgid "Main table"
+msgstr "Glavna tabela"
+
+msgid "Migrated table"
+msgstr "Migrirana tabela"
+
+msgid "Every 5 minutes"
+msgstr "Na svakih 5 minuta"
+
+msgid "Every 15 minutes"
+msgstr "Na svakih 15 minuta"
+
+msgid "Every 30 minutes"
+msgstr "Na svakih 30 minuta"
+
+msgid "TablePress Google Sync"
+msgstr "TablePress Google sinhronizacija"
+
+msgid "TP Google Sync"
+msgstr "TP Google sinhronizacija"
+
+msgid "Settings"
+msgstr "Podesavanja"
+
+msgid "ZUOV TablePress and Google Sheets Sync:"
+msgstr "ZUOV TablePress i Google Sheets sinhronizacija:"
+
+msgid "TablePress must be active for synchronization to work."
+msgstr "TablePress mora biti aktivan da bi sinhronizacija radila."
+
+msgid "You do not have permission to access this page."
+msgstr "Nemate dozvolu za pristup ovoj stranici."
+
+msgid "Table %d"
+msgstr "Tabela %d"
+
+msgid "Settings saved."
+msgstr "Podesavanja su sacuvana."
+
+msgid "Webhook secret changed."
+msgstr "Webhook tajni kljuc je promenjen."
+
+msgid "ZUOV TablePress and Google Sheets Sync"
+msgstr "ZUOV TablePress i Google Sheets sinhronizacija"
+
+msgid "Synchronize one or more Google Sheets CSV exports into existing TablePress tables."
+msgstr "Sinhronizujte jedan ili vise Google Sheets CSV izvoznih fajlova u postojece TablePress tabele."
+
+msgid "Google Sheets setup guide"
+msgstr "Uputstvo za podesavanje Google tabela"
+
+msgid "TablePress is not currently available. Saving settings is possible, but synchronization is disabled."
+msgstr "TablePress trenutno nije dostupan. Cuvanje podesavanja je moguce, ali sinhronizacija je iskljucena."
+
+msgid "Sync profiles"
+msgstr "Profili sinhronizacije"
+
+msgid "Each profile maps one Google Sheet to one existing TablePress table."
+msgstr "Svaki profil povezuje jednu Google tabelu sa jednom postojecom TablePress tabelom."
+
+msgid "Profile %d"
+msgstr "Profil %d"
+
+msgid "Profile name"
+msgstr "Naziv profila"
+
+msgid "Active"
+msgstr "Aktivno"
+
+msgid "Enable this sync profile"
+msgstr "Ukljuci ovaj profil sinhronizacije"
+
+msgid "Google Sheet URL"
+msgstr "URL Google tabele"
+
+msgid "Use a standard /edit link or a direct /export?format=csv URL. The sheet must be readable by the server without a Google login screen."
+msgstr "Koristite standardni /edit link ili direktni /export?format=csv URL. Server mora moci da procita tabelu bez Google login ekrana."
+
+msgid "TablePress ID"
+msgstr "TablePress ID"
+
+msgid "Cache purge URL"
+msgstr "URL za brisanje kesa"
+
+msgid "Optional. If W3 Total Cache is active, this page URL is flushed after a successful update."
+msgstr "Opciono. Ako je W3 Total Cache aktivan, kes ove stranice se brise posle uspesnog azuriranja."
+
+msgid "Data processing"
+msgstr "Obrada podataka"
+
+msgid "Remove empty trailing rows"
+msgstr "Ukloni prazne redove na kraju"
+
+msgid "Renumber the first column on the website"
+msgstr "Ponovo numerisi prvu kolonu na sajtu"
+
+msgid "Sort rows by the second column:"
+msgstr "Sortiraj redove po drugoj koloni:"
+
+msgid "Direct CSV URL"
+msgstr "Direktni CSV URL"
+
+msgid "URL not recognized."
+msgstr "URL nije prepoznat."
+
+msgid "Profile webhook URL"
+msgstr "Webhook URL profila"
+
+msgid "Use this URL in the Google Apps Script menu for this specific Google Sheet."
+msgstr "Koristite ovaj URL u Google Apps Script meniju za ovu konkretnu Google tabelu."
+
+msgid "Last profile status"
+msgstr "Poslednji status profila"
+
+msgid "Remove"
+msgstr "Ukloni"
+
+msgid "Remove this profile on save"
+msgstr "Ukloni ovaj profil pri cuvanju"
+
+msgid "Save settings"
+msgstr "Sacuvaj podesavanja"
+
+msgid "Save and add another profile"
+msgstr "Sacuvaj i dodaj jos jedan profil"
+
+msgid "Automation"
+msgstr "Automatizacija"
+
+msgid "Scheduled check"
+msgstr "Zakazana provera"
+
+msgid "Cron is a fallback check. For immediate updates, use the webhook or the Google Sheets custom menu."
+msgstr "Cron je rezervna provera. Za trenutna azuriranja koristite webhook ili prilagodjeni meni u Google tabeli."
+
+msgid "Webhook URL for all profiles"
+msgstr "Webhook URL za sve profile"
+
+msgid "REST webhook fallback"
+msgstr "Rezervni REST webhook"
+
+msgid "Manual profile sync"
+msgstr "Rucno pokretanje profila"
+
+msgid "Sync %s"
+msgstr "Sinhronizuj %s"
+
+msgid "Manual sync"
+msgstr "Rucna sinhronizacija"
+
+msgid "Sync all profiles now"
+msgstr "Sinhronizuj sve profile sada"
+
+msgid "Webhook secret"
+msgstr "Webhook tajni kljuc"
+
+msgid "Change webhook secret"
+msgstr "Promeni webhook tajni kljuc"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Last run"
+msgstr "Poslednje pokretanje"
+
+msgid "Last success"
+msgstr "Poslednji uspeh"
+
+msgid "Message"
+msgstr "Poruka"
+
+msgid "Rows"
+msgstr "Redovi"
+
+msgid "Next scheduled check"
+msgstr "Sledeca zakazana provera"
+
+msgid "Not scheduled"
+msgstr "Nije zakazano"
+
+msgid "Open the Google Sheet and use Share > General access > Anyone with the link > Viewer. Do not make the public link editable."
+msgstr "Otvorite Google tabelu i izaberite Share > General access > Anyone with the link > Viewer. Nemojte javni link uciniti editabilnim."
+
+msgid "Give Editor access only to trusted Google accounts that should maintain the data."
+msgstr "Editor pristup dodelite samo pouzdanim Google nalozima koji odrzavaju podatke."
+
+msgid "Paste the Google Sheet /edit URL into the matching sync profile, save settings, and run a manual sync."
+msgstr "Nalepite /edit URL Google tabele u odgovarajuci profil, sacuvajte podesavanja i pokrenite rucnu sinhronizaciju."
+
+msgid "For a manual sync button inside Google Sheets, open Extensions > Apps Script and use the sample script from README.md or docs/google-sheets-setup.md."
+msgstr "Za rucno dugme u Google tabeli otvorite Extensions > Apps Script i koristite primer skripte iz README.md ili docs/google-sheets-setup.md."
+
+msgid "Use the profile-specific webhook URL when one Google Sheet should update only its own TablePress table."
+msgstr "Koristite webhook URL odredjenog profila kada jedna Google tabela treba da azurira samo svoju TablePress tabelu."
+
+msgid "Manual / webhook only"
+msgstr "Samo rucno / webhook"
+
+msgid "Hourly"
+msgstr "Jednom na sat"
+
+msgid "Twice daily"
+msgstr "Dva puta dnevno"
+
+msgid "Daily"
+msgstr "Jednom dnevno"
+
+msgid "Do not sort"
+msgstr "Ne sortiraj"
+
+msgid "English / Latin A-Z"
+msgstr "Engleski / latinica A-Z"
+
+msgid "Serbian Cyrillic azbuka"
+msgstr "Srpska cirilicna azbuka"
+
+msgid "Invalid webhook secret."
+msgstr "Neispravan webhook tajni kljuc."
+
+msgid "Synchronization is already in progress."
+msgstr "Sinhronizacija je vec u toku."
+
+msgid "TablePress is not active or not loaded."
+msgstr "TablePress nije aktivan ili nije ucitan."
+
+msgid "Synchronization finished with %1$d error(s), %2$d update(s), and %3$d skipped profile(s)."
+msgstr "Sinhronizacija je zavrsena sa %1$d greskom/gresaka, %2$d azuriranjem/a i %3$d preskocenim profilom/a."
+
+msgid "Synchronization updated %1$d profile(s). Skipped: %2$d."
+msgstr "Sinhronizacija je azurirala %1$d profil(a). Preskoceno: %2$d."
+
+msgid "No profile had changes to import."
+msgstr "Nijedan profil nema izmene za uvoz."
+
+msgid "The selected sync profile does not exist."
+msgstr "Izabrani profil sinhronizacije ne postoji."
+
+msgid "The selected sync profile is disabled."
+msgstr "Izabrani profil sinhronizacije je iskljucen."
+
+msgid "No enabled sync profiles have both a Google Sheet URL and a TablePress ID."
+msgstr "Nijedan ukljuceni profil nema i URL Google tabele i TablePress ID."
+
+msgid "Missing TablePress ID."
+msgstr "Nedostaje TablePress ID."
+
+msgid "Google Sheet URL was not recognized."
+msgstr "URL Google tabele nije prepoznat."
+
+msgid "Google Sheet could not be downloaded: %s"
+msgstr "Google tabela nije mogla biti preuzeta: %s"
+
+msgid "Google Sheet returned HTTP status %d."
+msgstr "Google tabela je vratila HTTP status %d."
+
+msgid "Google Sheet CSV export is empty."
+msgstr "CSV izvoz Google tabele je prazan."
+
+msgid "Google returned HTML instead of CSV. Check whether the sheet is readable without logging in."
+msgstr "Google je vratio HTML umesto CSV-a. Proverite da li je tabela citljiva bez prijavljivanja."
+
+msgid "No changes in the Google Sheet."
+msgstr "Nema izmena u Google tabeli."
+
+msgid "CSV does not contain usable table data."
+msgstr "CSV ne sadrzi upotrebljive podatke tabele."
+
+msgid "TablePress table %1$s was updated. Data rows: %2$d."
+msgstr "TablePress tabela %1$s je azurirana. Redova podataka: %2$d."
+
+msgid "CSV could not be parsed."
+msgstr "CSV nije mogao biti procitan."
+
+msgid "TablePress table does not exist: %s"
+msgstr "TablePress tabela ne postoji: %s"
+
